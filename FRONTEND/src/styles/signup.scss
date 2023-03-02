@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+
+.signup{
+  display: flex;
+  margin-top: 8%;  
+  align-items: center; 
+  justify-content: center;
+}
+
+.signup-logo{
+  margin-right: 200px;
+  height: 160px;
+}
+
+.signup-form h3{
+  font-size: 15px;
+  color: #99A4C1
+}
+
+.signup-form label{
+  font-size: 22px;
+}
+
+.signup-form input{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.signup-form {
+  /* padding: 25px; */
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.btn1{
+    margin-top: 27px;
+    font-size: 20px;
+    width: 117px;
+    height: 40px;
+    background: #014651;
+    font-family: 'Kanit';
+    color: #4befef;
+    border-radius: 100px;
+    border: none; 
+}
+
+
+.btn1:hover{
+  background: #4befef;
+  color:#444444
+}
+
+.btn2{
+    margin-top: 27px;
+    font-size: 20px;
+    width: 175px;
+    height: 40px;
+    background: #444444;
+    font-family: 'Kanit';
+    color: #4befef;
+    border-radius: 100px;
+    border: none;
+}
+
+.btn2:hover{
+  background: #014651;
+  color: #4befef;
+}
+
+.form-control{
+  max-width: 340px;
+  width: 100%;
+  background-color: #cfe0e3;
+  margin: 5px 0;
+  height: 55px;
+  border-radius: 50px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 0 2.4rem;
+  position: relative;
+  color: #014651;
+  font-family: Kanit;
+}
+
+.inpute{
+  text-align: center;
+  line-height: 55px;
+  color: #acacac;
+  transition: 0.5s;
+  font-size: 1.1rem;
+}
+
+.icon{
+  height: 10px;
+}
+
+.title{
+  color: #014651;
+  padding-top: 20px;
+  padding-left: 30px;
+  font-family: Kanit;
+}

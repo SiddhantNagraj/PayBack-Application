@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font: Kanit;
+}
+.landingNav{
+  height: 90px;
+  width: 100%;
+  background: linear-gradient(270deg, #000000, #014a56);
+  color: #898989;
+  font-family: 'Kanit';
+  
+  
+}
+.fixed-top{
+  position:fixed;top:0;right:0;left:0;z-index:1030
+}
+.float{
+  float: right;
+  position: absolute;
+  top: 25px;
+  right: 10vw;
+  
+}
+.float button{
+  padding: 5px 18px 5px 18px;
+  color: #014651;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.float button:focus{
+  outline: none;
+}
+.loginBtn{
+  background: #4befef;
+  font-size:  15px;
+  margin-right: 15px;
+}
+.SignUp{
+  background: #cfe0e3;
+  font-size:  15px;
+  margin-left: 15px;
+  
+}
+.float label{
+  font-size:  20px;
+}
+
+.landingNav h3{
+  font-size: 25px;
+  font-weight: normal;
+  position: absolute;
+  top: 8px;
+  left: 10vw;
+  
+}
+
+.landing-heading{
+  text-align: center;
+  size: 10px;
+  margin-top: 25px; 
+}
+
+.landing-logo{
+  vertical-align: text-bottom;
+  /* height: 65px; */
+  padding-right: 13px;
+  height: 57px;
+  width: 80px;
+  padding-top: 13px;
+}
+.landing-header{
+  display: inline-block;
+  font-size: 60px;
+  margin-top: 100px;
+  font-weight: normal;
+  margin-left: -23px;
+  font-family: Kanit;
+  color: #014551;
+}
+.landing-desc{
+  margin-top: 5px;
+  font-size: 25px;
+  margin-bottom: 25px;
+  font-family: 'Kanit';
+  color: #c4c4c4;
+}
+
+.landing-feature{
+  background: #F3F3F3;
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+
+
+.landing-img{
+  height: 500px;
+  margin: 0px 150px 0px 150px;
+  
+}
+.landing-content{
+  margin-top: 55px;
+  font-size: 25px;
+}
+.landing-content ul{
+  list-style-type: none;
+  font-size: 25px;
+  font-weight: normal;
+  margin-top: 25px;
+}
+
+.landing-content li{
+
+  margin-bottom: 15px;
+}
+.landing-content i{
+  color: #57C6A8;
+}
+.landing-button{
+  float: right;
+  padding: 12px 15px 12px 15px;
+  color: white;
+  background: #57C6A8;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.landing-button:focus{
+  outline: none;
+}
+
+.landing-name{
+  font-size: medium;
+  margin-top: 23px;
+  cursor: pointer;
+  color: white;
+  font-family: 'Kanit', sans-serif;
+}
+
+.landing-big{
+  size: 10px;
+}
+
+.landing{
+  background: linear-gradient(180deg, #eefcff, #d8e8eb);
+}
+
+.logo{
+  height: 35px;
+  width: 60px;
+  position: absolute;
+  left: 298px;
+  top: 30px;
+}
